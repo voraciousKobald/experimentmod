@@ -1,3 +1,6 @@
 {
-  "item.experiment.poison_cookie": "Poison Cookie"
+  "item.experiment.poison_cookie": "Poison Cookie",
+  "item.experiment.arsenic": "Arsenic",
+
+  "itemgroup.poison": "A collection of lethal poisons"
 }

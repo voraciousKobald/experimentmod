@@ -2,6 +2,7 @@ package net.grumpenbug.experiment;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.grumpenbug.experiment.items.ModItemGroups;
 import net.grumpenbug.experiment.items.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,7 +13,7 @@ public class Experiment implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
-		LOGGER.info("Hello Fabric world!");
 	}
 }
