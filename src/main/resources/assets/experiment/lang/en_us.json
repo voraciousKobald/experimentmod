@@ -2,5 +2,7 @@
   "item.experiment.poison_cookie": "Poison Cookie",
   "item.experiment.arsenic": "Arsenic",
 
+  "block.experiment.arsenopyrite": "Arsenopyrite",
+
   "itemgroup.poison": "A collection of lethal poisons"
 }

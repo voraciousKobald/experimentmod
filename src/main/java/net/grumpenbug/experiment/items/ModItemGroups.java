@@ -2,6 +2,7 @@ package net.grumpenbug.experiment.items;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.grumpenbug.experiment.Experiment;
+import net.grumpenbug.experiment.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -16,6 +17,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.ARSENIC)).entries((displayContext, entries) -> {
                         entries.add(ModItems.ARSENIC);
                         entries.add(ModItems.POISON_COOKIE);
+                        entries.add(ModBlocks.ARSENOPYRITE);
 
                     }).build());
 
