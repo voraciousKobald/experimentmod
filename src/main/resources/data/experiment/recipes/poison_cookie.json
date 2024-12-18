@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+
+  "category": "misc",
+
+  "key": {
+    "#": {
+      "item": "experiment:arsenic"
+    },
+
+    "X": {
+      "item": "minecraft:cocoa_beans"
+    }
+  },
+
+  "pattern": [
+    "#X#"
+  ],
+
+  "result": {
+    "count": 1,
+    "item": "experiment:poison_cookie"
+  },
+
+  "show_notification": true
+}
